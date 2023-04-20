@@ -1,0 +1,12 @@
+bool iguales = false; 
+while(iguales==false){
+	for (int i = 0; i < X; i++) { 
+    		for (int j = i + 1; j < X; j++) { 
+        		if (matriz2[i]== matriz2[j]) { 
+            			cout << "no pueden haber 2 materias con el mismo codigo" << endl; 
+				cin>>matriz2[i];
+            			iguales = true;
+        }
+    	}
+}
+}
